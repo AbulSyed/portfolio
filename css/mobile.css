@@ -1,3 +1,6 @@
+#showcase {
+    background: url('../space-jelly2.jpg') no-repeat center center/cover;
+}
 #about .container {
     display: flex;
     flex-direction: column;
@@ -10,19 +13,27 @@
 #about .container .about-text{
     margin-left: 0rem;
 }
-
+#projects .projects-container {
+    grid-template-columns: 1fr 1fr;
+}
+@media(max-width: 600px){
+    
+    #projects .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
 @media(max-width: 500px){
     #navbar ul {
         display: flex;
         flex-direction: column;
     }
     #navbar ul li {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
     #showcase {
-        background: url('../space-jelly2.jpg');
-        background: #051525;
-        height: 75vh;
+        /* background: url('../space-jelly2.jpg'); */
+        /* background: #051525; */
+        /* height: 75vh; */
         /* background-size: cover;
         background-repeat: no-repeat;
         background-position: center center; */
