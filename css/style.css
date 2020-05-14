@@ -53,6 +53,21 @@ a {
 .py-2 {padding: 2rem 0;}
 .py-3 {padding: 3rem 0;}
 
+.category {
+    display: inline-block;
+    padding: 0.4rem 0.6rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    font-size: 10px;
+    color: #000;
+    margin: 0.5rem 0;
+}
+.category-css { background: lightblue; }
+.category-js { background: orange; }
+.category-java { background: green; }
+
+
 
 /* Navbar */
 
@@ -118,6 +133,19 @@ a {
     #about .container .about-text{
         margin-left: 5rem;
     }
+}
+
+/* Projects */
+#projects {
+    color: #fff;
+}
+#projects .projects-container img {
+    width: 100%;
+}
+#projects .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
 }
 
 /* Footer */
