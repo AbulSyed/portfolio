@@ -1,0 +1,52 @@
+#about .container {
+    display: flex;
+    flex-direction: column;
+}
+#about .container .about-text,
+#about .container .about-skills {
+    align-items: center;
+    text-align: center;
+}
+#about .container .about-text{
+    margin-left: 0rem;
+}
+
+@media(max-width: 500px){
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar ul li {
+        margin-bottom: 1rem;
+    }
+    #showcase {
+        background: url('../space-jelly2.jpg');
+        background: #051525;
+        height: 75vh;
+        /* background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; */
+        /* height: 80vh; */
+    }
+    #showcase .showcase-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+        padding-left: 10rem;
+        padding-bottom: 100px;
+        align-items: center; */
+    }
+    .l-heading {
+        margin-top: 1rem;
+    }
+    .lead {
+        margin-top: 6rem;
+    }
+}
+
