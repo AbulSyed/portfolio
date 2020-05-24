@@ -21,6 +21,9 @@
     #projects .projects-container {
         grid-template-columns: 1fr;
     }
+    #about {
+        margin-top: -8rem;
+    }
 }
 @media(max-width: 500px){
     #navbar ul {
