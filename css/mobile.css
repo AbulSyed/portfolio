@@ -16,6 +16,11 @@
 #projects .projects-container {
     grid-template-columns: 1fr 1fr;
 }
+@media(max-width: 850px) and (min-width:500px) {
+    #showcase {
+        padding: 0 5rem;
+    }
+}
 @media(max-width: 600px){
     
     #projects .projects-container {
@@ -55,6 +60,9 @@
         padding-left: 10rem;
         padding-bottom: 100px;
         align-items: center; */
+    }
+    #showcase .showcase-content .astronaut {
+        margin-left: -15rem;
     }
     .l-heading {
         margin-top: 1rem;
