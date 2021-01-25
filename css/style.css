@@ -30,6 +30,7 @@ a {
     padding: 0.5rem;
     border: 1px solid #dd3c47;
     border-radius: 4px;
+    transition: all .4s
 }
 .btn:hover {
     background: #072038;
@@ -90,6 +91,7 @@ a {
     padding: 0 4rem;
     color: #fff;
     font-weight: bold;
+    transition: all .4s
 }
 #navbar ul li a:hover {
     color: #dd3c47;
@@ -147,6 +149,7 @@ a {
 }
 #projects .projects-container img {
     width: 100%;
+    transition: all .4s
 }
 #projects .projects-container img:hover {
     opacity: 0.6;
@@ -168,6 +171,7 @@ a {
 }
 #main-footer .container a {
     color: #fff;
+    transition: all .4s
 }
 #main-footer .container a:hover {
     color: #dd3c47;
