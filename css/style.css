@@ -62,12 +62,15 @@ a {
     border: none;
     border-radius: 15px;
     font-size: 10px;
-    color: #000;
+    color: rgb(29, 28, 28);
     margin: 0.5rem 0;
+    font-weight: 550;
 }
 .category-css { background: lightblue; }
-.category-js { background: orange; }
-.category-java { background: green; }
+.category-js { background: #f7e04b; }
+.category-vue-js { background: #53b985; }
+.category-java { background: #2d768f; }
+.category-firebase { background: #f5a841; }
 
 
 
@@ -148,6 +151,7 @@ a {
     color: #fff;
 }
 #projects .projects-container img {
+    border-radius: 3px;
     width: 100%;
     transition: all .4s
 }
