@@ -33,7 +33,8 @@ a {
     transition: all .4s
 }
 .btn:hover {
-    background: #072038;
+    /* background: #072038; */
+    color: #dd3c47;
 }
 .bg-primary {
     background-color: #051525;
