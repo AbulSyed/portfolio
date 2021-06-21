@@ -59,7 +59,7 @@ a {
 .category {
     display: inline-block;
     padding: 0.4rem 0.6rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border: none;
     border-radius: 15px;
     font-size: 10px;
@@ -70,6 +70,8 @@ a {
 .category-css { background: lightblue; }
 .category-js { background: #f7e04b; }
 .category-vue-js { background: #53b985; }
+.category-mongodb { background: #4eab52; }
+.category-express-js { background: #C0C0C0; }
 .category-java { background: #2d768f; }
 .category-firebase { background: #f5a841; }
 
