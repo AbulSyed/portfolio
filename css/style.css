@@ -21,6 +21,9 @@ a {
 .m-heading {
     font-size: 2rem;
 }
+.s-heading {
+    font-size: 1.5rem;
+}
 .lead {
     font-size: 1.3rem;
     margin-bottom: 1.2rem;
