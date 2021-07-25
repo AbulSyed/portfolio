@@ -153,6 +153,12 @@ a {
 }
 .link {
     color: #fff;
+    border-bottom: 3px solid #dd3c47;
+    cursor: pointer;
+    transition: all .5s;
+}
+.link:hover {
+    border-bottom: none;
 }
 
 /* Projects section*/
