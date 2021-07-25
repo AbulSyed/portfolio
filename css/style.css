@@ -73,9 +73,11 @@ a {
 .category-css { background: lightblue; }
 .category-js { background: #f7e04b; }
 .category-vue-js { background: #53b985; }
+.category-react-js { background: #61daf9; }
 .category-mongodb { background: #4eab52; }
 .category-java { background: #2d768f; }
 .category-firebase { background: #f5a841; }
+.category-socket { background: #747371; }
 
 
 
@@ -148,6 +150,9 @@ a {
     #about .container .about-text{
         margin-left: 5rem;
     }
+}
+.link {
+    color: #fff;
 }
 
 /* Projects section*/
