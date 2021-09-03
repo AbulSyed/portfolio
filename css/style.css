@@ -11,6 +11,7 @@ body {
 /* Utilities */
 a {
     text-decoration: none;
+    color: #fff;
 }
 .text-primary{
     color: #dd3c47;
@@ -51,13 +52,23 @@ a {
 .text-center {
     text-align: center;
 }
+.line-height {
+    line-height: 1rem;
+}
+
+.p-xs {padding: 1rem;}
 .p-1 {padding: 1.5rem;}
 .p-2 {padding: 2rem;}
 .p-3 {padding: 3rem;}
 
+.py-xs {padding: .8rem 0;}
 .py-1 {padding: 1.5rem 0;}
 .py-2 {padding: 2rem 0;}
 .py-3 {padding: 3rem 0;}
+
+.px-1 {padding: 0 1.5rem;}
+.px-2 {padding: 0 2rem;}
+.px-3 {padding: 0 3rem;}
 
 .category {
     display: inline-block;
@@ -72,9 +83,12 @@ a {
 }
 .category-css { background: lightblue; }
 .category-js { background: #f7e04b; }
+.category-ts { background: #3178c6; }
+.category-nest-js { background: #da354d; }
 .category-vue-js { background: #53b985; }
 .category-react-js { background: #61daf9; }
 .category-mongodb { background: #4eab52; }
+.category-pg { background: #31648c; }
 .category-java { background: #2d768f; }
 .category-firebase { background: #f5a841; }
 .category-socket { background: #747371; }
@@ -182,6 +196,29 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
     padding: 1rem;
+}
+
+#projects2 {
+    color: #fff;
+}
+#projects2 .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.api-card {
+    background-color: #2a2e35;
+    border-radius: 5px;
+    height: 200px;
+    transition: all .4s;
+    border: 1px dashed rgb(185, 185, 185);
+}
+
+.api-card:hover {
+    background-color: #404349;
+    cursor: pointer;
 }
 
 /* Footer */

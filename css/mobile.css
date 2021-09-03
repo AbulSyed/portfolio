@@ -21,6 +21,11 @@
         padding: 0 5rem;
     }
 }
+@media(max-width: 650px) and (min-width:601px) {
+    .api-card {
+        /* height: 250px; */
+    }
+}
 @media(max-width: 600px){
     
     #projects .projects-container {
@@ -28,6 +33,12 @@
     }
     #about {
         margin-top: -8rem;
+    }
+    #projects2 .projects-container {
+        grid-template-columns: 1fr;
+    }
+    .api-card {
+        height: 210px;
     }
 }
 @media(max-width: 500px){
