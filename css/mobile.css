@@ -81,5 +81,8 @@
     .lead {
         margin-top: 6rem;
     }
+    #mobile-py {
+        padding: .8rem 0;
+    }
 }
 
