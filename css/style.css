@@ -210,15 +210,15 @@ a {
 }
 
 .api-card {
-    background-color: #2a2e35;
+    background-color: #06182b;
     border-radius: 5px;
     height: 200px;
     transition: all .4s;
-    border: 1px dashed rgb(185, 185, 185);
+    /* border: 1px dashed rgb(185, 185, 185); */
 }
 
 .api-card:hover {
-    background-color: #404349;
+    background-color: #212938;
     cursor: pointer;
 }
 
@@ -255,8 +255,10 @@ a {
     padding: 1rem;
 }
 .pwa-card2 ul {
-    list-style: none;
-    margin-top: 10px;
+    list-style-type: square;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: -20px;
 }
 .pwa-card2 ul li {
     margin-bottom: 1rem;
