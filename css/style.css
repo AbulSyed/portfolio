@@ -92,6 +92,7 @@ a {
 .category-java { background: #2d768f; }
 .category-firebase { background: #f5a841; }
 .category-socket { background: #747371; }
+.category-quasar { background: #3178c6; }
 
 
 
@@ -218,6 +219,50 @@ a {
 
 .api-card:hover {
     background-color: #404349;
+    cursor: pointer;
+}
+
+#projects3 {
+    color: #fff;
+}
+#projects3 .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 1rem;
+}
+
+.pwa-img1,
+.pwa-img2 {
+    height: 300px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.pwa-card {
+    background-color: #06182b;
+    padding: .8rem;
+    border-radius: 8px;
+    transition: all .4s;
+}
+.pwa-link {
+    display: flex;
+    justify-content: space-around;
+}
+.pwa-card2 {
+    background-color: #06182b;
+    border-radius: 8px;
+    height: 340px;
+    padding: 1rem;
+}
+.pwa-card2 ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.pwa-card2 ul li {
+    margin-bottom: 1rem;
+}
+.pwa-card:hover {
+    background-color: #212938;
     cursor: pointer;
 }
 

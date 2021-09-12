@@ -26,9 +26,15 @@
         /* height: 250px; */
     }
 }
+@media(max-width: 800px){
+    #projects3 .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
 @media(max-width: 600px){
     
-    #projects .projects-container {
+    #projects .projects-container,
+    #projects3 .projects-container {
         grid-template-columns: 1fr;
     }
     #about {
@@ -74,6 +80,12 @@
     }
     #showcase .showcase-content .astronaut {
         margin-left: -15rem;
+    }
+    .pwa-img1 {
+        height: 450px;
+    }
+    .pwa-img2 {
+        display: none;
     }
     .l-heading {
         margin-top: 1rem;
