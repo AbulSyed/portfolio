@@ -189,9 +189,9 @@ a {
 #projects .projects-container img:hover {
     opacity: 0.6;
 }
-#projects .projects-container > *:last-child img:hover {
+/* #projects .projects-container > *:last-child img:hover {
     opacity: 1;
-}
+} */
 #projects .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
