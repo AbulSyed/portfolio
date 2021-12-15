@@ -93,9 +93,10 @@ a {
 .category-firebase { background: #f5a841; }
 .category-socket { background: #747371; }
 .category-quasar { background: #3178c6; }
-/* .category-elm { background: #5dafc6; }
+.category-elm { background: #5dafc6; }
 .category-vegalite { background: #234dad; }
-.category-ng { background: #d73231; } */
+.category-ng { background: #d73231; }
+
 
 
 /* Navbar */
