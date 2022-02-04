@@ -39,6 +39,7 @@ a {
 .btn:hover {
     /* background: #072038; */
     color: #dd3c47;
+    border-color: #fff;
 }
 .bg-primary {
     background-color: #051525;
